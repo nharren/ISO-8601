@@ -2,46 +2,6 @@
 
 #### Version 1
 
-##### EDTF
-
-- [x] Extended date/times 
-	- [x] Deserialization from string
-	- [x] Serialization to string
-	- [x] Comparison
-	- [x] Serialization to XML
-	- [x] Serialization to Binary
-	- [x] Conversion from System.DateTime
-	- [x] Conversion from System.DateTimeOffset
-	- [x] Arithmetic operations
-		- [x] Subtract extended date/times
-		- [x] Subtract timespans
-		- [x] Add timespans
-- [x] Extended time intervals 
-	- [x] Deserialization from string
-	- [x] Serialization to string
-	- [x] Comparison
-	- [x] Serialization to XML
-	- [x] Serialization to Binary
-- [x] Extended date/time collection
-	- [x] Deserialization from string
-	- [x] Serialization to string
-	- [x] Comparison
-	- [x] Serialization to XML
-	- [x] Serialization to Binary
-- [x] Extended date/time possibility collection
-	- [x] Deserialization from string
-	- [x] Serialization to string
-	- [x] Comparison
-	- [x] Serialization to XML
-	- [x] Serialization to Binary
-- [x] Unspecified extended date/time
-	- [x] Deserialization from string
-	- [x] Serialization to string
-	- [x] Comparison
-	- [x] Serialization to XML
-	- [x] Serialization to Binary
-- [x] Extended timespan
-
 ##### ISO-8601:2004(E)
 
 - [x] Calendar dates 
@@ -131,17 +91,3 @@
 - [x] Recurring duration-end time intervals
 	- [x] Deserialization from string
 	- [x] Serialization to string
-
-#### Future Ideas
-
-- Robust validation.
-- Robust diagnostics with helpful exceptions.
-- Optimistic parsing.
-- Thorough performance tests.
-- Better documentation and examples.
-- More calculation features.
-- Basic guide to ISO 8601 and EDTF formatting.
-- Add Date class to EDTF.
-- Conversion between Duration types.
-- Conversion between TimeInterval types.
-- Branch: Explore using internal fields and properties in abstract types to allow inheritors to use the same conversion and calculation methods.
